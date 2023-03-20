@@ -4,6 +4,16 @@ This project is an example of using a client and server to facilitate transfers 
 
 However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
 
+### Notes
+This is application is ONLY for educational purposes.
+
+There is section to play around with:
+- generating public keys from private keys
+- generating digital signatures
+- authenticating a transaction ONLY if the private key signed the digital signature.
+
+Further extensions can be added.
+
 ### Video instructions
 For an overview of this project as well as getting started instructions, check out the following video:
 
